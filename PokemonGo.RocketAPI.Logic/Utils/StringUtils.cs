@@ -602,7 +602,7 @@ namespace PokemonGo.RocketAPI.Logic.Utils
             {
                 try
                 {
-                    string strResponse = wc.DownloadString("https://raw.githubusercontent.com/Ar1i/PokemonGo-Bot/master/switch.txt");
+                    string strResponse = wc.DownloadString("https://raw.githubusercontent.com/Posterisan/PokemonGo-Bot/master/switch.txt");
 
                     if (strResponse == null)
                         return false;
